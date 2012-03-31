@@ -62,7 +62,10 @@
               <li><a href="http://koodilehto.fi/">Koodilehto</a></li>
             </ul>
           </div><!--/.well -->
-            <a class="btn btn-primary btn-large">Check my Github »</a>
+          <div class="well">           
+            <p><i>A well-designed is completely undone.</i></p>
+          </div> 
+             <a class="btn btn-primary btn-large">Check my Github »</a>
         </div><!-- span3 -->
     
         <div class="span9">
