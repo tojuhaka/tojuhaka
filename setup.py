@@ -37,7 +37,7 @@ setup(name='tojuhaka',
       keywords='web pylons pyramid',
       package_data = {
             '': ['*.less', '*.js'],
-            'easyblog': ['/static/*', '/static/bootstrap/less/*.less', '/locale/*'],
+            'tojuhaka': ['/static/*', '/static/bootstrap/less/*.less', '/locale/*'],
       },
       packages=find_packages(),
       include_package_data=True,
