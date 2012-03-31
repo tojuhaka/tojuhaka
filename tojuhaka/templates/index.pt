@@ -4,16 +4,19 @@
       metal:use-macro="base"
       i18n:domain="tojuhaka">
   <tal:block  metal:fill-slot="content">
-    <div class="hero-unit">
-      <h1>Toni Haka-Risku</h1>
-      <p> I'm a software developer from Jyväskylä. I've been studying IT at the university of Jyväskylä since 2009 and worked as a developer since 2010. This website was created so that I'm able keep track of the projects i've been developing. It also works as CV for me.
-      a small introduction about me </p>
-      <p><a class="btn btn-primary btn-large">Check my Github »</a></p>
-    </div>
+      <div class="row">
+        <a href="#" class="span8 thumbnail">
+          <img  src="/static/images/99bottles.jpg" alt="">
+        </a>
+      </div>
+
+    <hr />
     <div class="row-fluid">
-      <div class="span12">
-        <h2>History</h2>
-        <table>
+      <div class="span10">
+        <h1>Introduction</h1>
+        <p> I'm a software developer from Jyväskylä. I've been studying IT at the university of Jyväskylä since 2009 and worked as a developer since 2011. This website was created so that I'm able keep track of the projects i've been developing. Most of my projects are focused on web development especially now when I'm working as a web developer. There are also loads of projects I've been developing at work, but I simply can't publish them. </p>
+        <h2>Work Experience</h2>
+        <table class="table table-striped">
           <thead>
             <tr>
               <th>Workplace</th>
@@ -23,14 +26,45 @@
             </tr>
           </thead>
           <tbody>
+
             <tr>
-              <td>…</td>
-              <td>…</td>
+              <td>University of Jyväskylä (current)</td> 
+              <td>2011-01-09 - </td>
+              <td>Software Designer </td>
+              <td>Web development with Python</td>
+            </tr>
+
+
+            <tr>
+              <td>University of Jyväskylä</td> 
+              <td>2011-01-06 - 2011-31-08 </td>
+              <td>Trainee</td>
+              <td>Web development with Python</td>
+            </tr>
+
+            <tr>
+              <td>University of Jyväskylä</td> 
+              <td>2011-01-01 - 2011-30-05 </td>
+              <td>Assistant Teacher</td>
+              <td>Course: Programming II (java)</td>
+            </tr>
+
+
+            <tr>
+              <td>University of Jyväskylä</td> 
+              <td>2010-01-09 - 2010-22-12 </td>
+              <td>Assistant Teacher</td>
+              <td>Course: Programming I (java)</td>
+            </tr>
+
+            <tr>
+              <td>Niilo Mäki Instituutti</td> 
+              <td>2010-01-06 - 2010-31-08 </td>
+              <td>Trainee</td>
+              <td>EkaPeli development with java</td>
             </tr>
           </tbody>
         </table>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn" href="http://twitter.github.com/bootstrap/examples/fluid.html#">View details »</a></p>
     </div><!--/span-->
   </tal:block>
 </html>

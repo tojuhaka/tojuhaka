@@ -5,7 +5,7 @@
       metal:define-macro="base"
       i18n:domain="tojuhaka">
   <head>
-    <title i18n:translate="site_title">Homepage</title>
+    <title i18n:translate="site_title">Tojuhaka's homepage</title>
     <link rel="stylesheet/less" href="/static/bootstrap/less/bootstrap.less">
     <script src="/static/js/plugins/less.js"></script>
 
@@ -34,13 +34,8 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <a i18n:translate="navbar_name" class="brand" href="/">Project Name</a>
+          <a i18n:translate="navbar_name" class="brand" href="/">Tojuhaka's homepage - tojuhaka@gmail.com</a>
           <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="http://twitter.github.com/bootstrap/examples/fluid.html#">Home</a></li>
-              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html#about">About</a></li>
-              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html#contact">Contact</a></li>
-            </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -49,35 +44,37 @@
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
+
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Projects</li>
-              <li class="active"><a href="http://www.jyu.fi">University of Jyväskylä</a></li>
+              <li><a href="http://www.jyu.fi">University of Jyväskylä</a></li>
               <li><a href="http://saapasjkl.net">Jyvässeudun Saapas RY</a></li>
+              <li><a href="https://github.com/tojuhaka/kandi">Bachelor's thesis</a></li>
+              <li><a href="https://github.com/tojuhaka/jyu.datautils">Persistent-cache for plone</a></li>
               <li class="nav-header">Old stuff</li>
-              <li><a href="">Old stuff1</a></li>
+              <li><a href="https://github.com/tojuhaka/HakaGame">2D RPG-engine</a></li>
+              <li><a href="https://github.com/tojuhaka/DrunkWorm">DrunkWorm</a></li>
+              <li><a href="https://github.com/tojuhaka/akharkka">Interactive Fiction Game</a></li>
 
-              <li class="nav-header">Links</li>
+              <li class="nav-header">Useful Links</li>
               <li><a href="http://github.com/tojuhaka">Github</a></li>
-              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html#">Link</a></li>
-              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html#">Link</a></li>
-              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html#">Link</a></li>
-              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html#">Link</a></li>
-              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html#">Link</a></li>
+              <li><a href="http://koodilehto.fi/">Koodilehto</a></li>
             </ul>
           </div><!--/.well -->
+            <a class="btn btn-primary btn-large">Check my Github »</a>
         </div><!-- span3 -->
     
         <div class="span9">
           <tal:block metal:define-slot="content"></tal:block>
         </div><!-- span9 -->
+        <hr />
+        <footer class="row">
+          <p class="span9">Framework by <a href="http://www.pylonsproject.org/">Pyramid</a>
+          Layout by <a href="http://twitter.github.com/bootstrap/">Bootstrap, from Twitter</a></p>
+
+        </footer>
       </div><!-- row -->
-      <hr />
-      <footer>
-        <p class="pull-right">tojuhaka@gmail.com</p>
-        <p>Framework by <a href="http://www.pylonsproject.org/">Pyramid</a></p>
-        <p>Layout by <a href="http://twitter.github.com/bootstrap/">Bootstrap, from Twitter</a></p>
-      </footer>
     </div><!-- container -->
   </body>
 
